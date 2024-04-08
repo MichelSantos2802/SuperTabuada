@@ -1,6 +1,7 @@
 body{background-image: 
     url(https://img.freepik.com/vetores-gratis/mao-desenhada-formulas-cientificas-na-lousa_23-2148496321.jpg?size=626&ext=jpg&ga=GA1.1.867424154.1712448000&semt=ais);
-
+    margin: 0;
+    padding: 0;
 }
 header{
     border: ridge 6px rgb(3, 240, 22);
