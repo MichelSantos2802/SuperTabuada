@@ -13,16 +13,14 @@
     </header>
     <section>
         <div class="digitaNumero">
-            <p id="pt"><input type="number" name="num" id="txt" >
-                <input type="button" value="Gerar Tabuada" onclick="tabuada()" id="botao">
-            </p>
+            <input type="number" name="num" id="txt" placeholder="Digite um número" onkeydown="if(event.keyCode==13) gerarTabuada()">
+            <input type="button" value="Gerar Tabuada" onclick="gerarTabuada()">
+            <input type="button" value="Zerar" onclick="zerarTabuada()">
         </div>
         <div class="tabuadaNumero">
             <select name="tabuada" id="resultTabuada" size="10"> 
-                <option value="" >𝔻𝕀𝔾𝕀𝕋𝔼 𝕌𝕄 ℕ𝕌𝕄𝔼ℝ𝕆</option>
-             
+                <option value="">𝔻𝕀𝔾𝕀𝕋𝔼 𝕌𝕄 ℕ𝕌𝕄𝔼ℝ𝕆</option>
             </select>
-            
         </div>
     </section>
     <footer>
